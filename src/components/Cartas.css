@@ -1,0 +1,100 @@
+/*CSS hecho con IA*/
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  /* Contenedor de la carta seleccionada */
+  .carta-seleccionada-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;  /* Asegura que ocupe todo el ancho */
+  }
+  
+  /* Estilo de la carta seleccionada */
+  .carta-seleccionada {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 450px;  /* Ancho fijo para la carta */
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .carta-seleccionada:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px);
+  }
+  
+  /* Estilo de la imagen de la carta */
+  .carta-seleccionada-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 20px 0;
+  }
+  
+  /* Estilo del nombre de la carta */
+  .carta-seleccionada-nombre {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Información adicional */
+  .carta-seleccionada-info {
+    font-size: 18px;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  .carta-seleccionada-info p {
+    margin: 8px 0;
+  }
+  
+  /* Contenedor de las cartas */
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .carta {
+    color: #333;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .carta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carta-nombre {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .carta-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,54 @@
+/*CSS hecho con IA*/
+
+
+/* Contenedor principal para alinear las cartas y la carta seleccionada */
+.carta-seleccionada-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  /* Estilo de la carta seleccionada */
+  .carta-seleccionada {
+    background-color: #3feaed;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 450px;  /* Ancho fijo para la carta */
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .carta-seleccionada:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px);
+  }
+  
+  /* Estilo de la imagen de la carta */
+  .carta-seleccionada-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 20px 0;
+  }
+  
+  /* Estilo del nombre de la carta */
+  .carta-seleccionada-nombre {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Información adicional */
+  .carta-seleccionada-info {
+    font-size: 18px;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  .carta-seleccionada-info p {
+    margin: 8px 0;
+  }
+  

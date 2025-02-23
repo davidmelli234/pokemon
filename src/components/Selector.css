@@ -1,0 +1,70 @@
+/*CSS hecho con IA*/
+
+
+/* Contenedor general de los formularios */
+.formularios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+  }
+  
+  /* Efecto de hover en el contenedor */
+  .formularios:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo de los formularios (limite e indice) */
+  .formulario-limite, .formulario-indice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 10px;
+  }
+  
+  /* Etiquetas de los formularios */
+  .formulario-limite label, .formulario-indice label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+  
+  /* Estilos para los inputs de los formularios */
+  input[type="number"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  /* Cambio de borde cuando el campo tiene el foco */
+  input[type="number"]:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 5px rgba(30, 136, 229, 0.5);
+  }
+  
+  /* Añadir márgenes entre los formularios */
+  .formulario-limite + .formulario-indice {
+    margin-top: 15px;
+  }
+  
